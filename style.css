@@ -1,7 +1,7 @@
-/* Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* universal */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Apply flex */
+
 .flex {
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ body {
   );
 }
 
-/* Main Container */
+
 .wrapper {
   width: 440px;
   background: rgb(134, 223, 224);
@@ -45,31 +45,31 @@ body {
   box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
 }
 
-/* Clock image */
+
 .wrapper img {
   max-width: 100px;
 }
 
-/* Time text */
+
 .wrapper h1 {
   font-size: 2.5rem;
   font-weight: 500;
   margin: 2.5rem 0;
 }
 
-/* Main content */
+
 .wrapper .content {
   width: 100%;
   justify-content: space-evenly;
 }
 
-/* Disable content menu */
+
 .wrapper .content.disable {
   opacity: 0.6;
   pointer-events: none;
 }
 
-/* Hour Minute AM/PM section */
+
 .content .column {
   border-radius: 5px;
   border: 1px solid #999;
@@ -89,7 +89,7 @@ body {
   font-weight: 600;
 }
 
-/* Set Button */
+
 .wrapper button,
 #resumeBtn {
   width: 100%;
@@ -105,7 +105,7 @@ body {
   cursor: pointer;
 }
 
-/* Click effect on button */
+
 .wrapper button:active,
 #resumeBtn:active {
   background-color: rgb(174, 52, 52);
@@ -113,13 +113,12 @@ body {
   /* padding: 0.8rem 0; */
 }
 
-/* Resume button */
+
 #resumeBtn {
   background-color: rgb(9, 107, 255);
   width: 200px;
 }
 
-/* Welcome Back Screen */
 
 .welcomeBack {
   position: absolute;
@@ -140,7 +139,7 @@ body {
   display: none;
 }
 
-/* Media queries */
+
 @media screen and (max-width: 500px) {
   .wrapper {
     width: 95vw;
